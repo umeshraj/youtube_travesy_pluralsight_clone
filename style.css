@@ -83,6 +83,53 @@ h6 {
   width: 100%;
 }
 
+#signin .secondary-btn,
+.or,
+.links {
+  width: 60%;
+}
+
+#signin .links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#signin .or {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+#signin .or .bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background: #aaa;
+}
+
+#signin .or span {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+
+#main-footer {
+  color: #ccc;
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 80%;
+  padding-top: 5rem;
+}
+
+#main-footer a {
+  color: #f96816;
+  text-decoration: underline;
+}
+
 /* Button */
 .primary-btn {
   padding: 0.7rem 1rem;
