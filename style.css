@@ -134,6 +134,11 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+#showcase .secondary-btn {
+  width: 60%;
+  margin: auto;
+}
+
 /* Footer */
 #main-footer {
   color: #ccc;
@@ -195,5 +200,31 @@ h6 {
   }
   #right {
     flex: 6;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  #right {
+    display: none;
+  }
+
+  #left {
+    justify-content: start;
+    margin-top: 4vh;
+  }
+
+  #signin .logo {
+    margin-bottom: 2vh;
+  }
+
+  #signin .text-input {
+    margin-bottom: 0.7rem;
+  }
+
+  #main-footer {
+    padding-top: 1rem;
   }
 }
